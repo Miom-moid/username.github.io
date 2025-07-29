@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>أحمد - محفظتي الرقمية</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- الشريط العلوي -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">أحمد</div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="active">الرئيسية</a></li>
+          <li><a href="#about">عني</a></li>
+          <li><a href="#skills">المهارات</a></li>
+          <li><a href="#projects">المشاريع</a></li>
+          <li><a href="#contact">اتصل بي</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- القسم الرئيسي -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>مرحبًا، أنا أحمد</h1>
+        <p>مطوّر ويب ومصمم واجهات مستخدم</p>
+        <button onclick="openModal()">ابق على تواصل</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- عنّي -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>من أنا؟</h2>
+      <div class="about-content">
+        <div class="about-img">
+          <img src="https://via.placeholder.com/300" alt="صورة أحمد" />
+        </div>
+        <div class="about-text">
+          <p>
+            أنا أحمد، مطوّر ويب من المملكة العربية السعودية، أمتلك خبرة تزيد عن 4 سنوات في تطوير المواقع
+            باستخدام HTML، CSS، JavaScript، وحزم مثل React وNode.js. أحب التصميم البسيط والوظيفي.
+          </p>
+          <p>
+            أؤمن بأن التصميم الجيد يجب أن يكون شفافًا وسهل الاستخدام. أعمل حاليًا في شركة تقنية كمطوّر
+            واجهة أمامية، وأسعى دائمًا لتعلم تقنيات جديدة.
+          </p>
+          <div class="info">
+            <p><strong>العمر:</strong> 28 سنة</p>
+            <p><strong>الموقع:</strong> الرياض، المملكة العربية السعودية</p>
+            <p><strong>البريد:</strong> ahmed@example.com</p>
+            <p><strong>الحالة:</strong> متاح للعمل الحر</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- المهارات -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>مهاراتي</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <div class="progress"><div class="bar" style="width: 95%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <div class="progress"><div class="bar" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <div class="progress"><div class="bar" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <div class="progress"><div class="bar" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-database"></i>
+          <h3>Node.js</h3>
+          <div class="progress"><div class="bar" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-paint-brush"></i>
+          <h3>تصميم UX/UI</h3>
+          <div class="progress"><div class="bar" style="width: 88%;"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- المشاريع -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>مشاريعي</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x200" alt="مشروع 1" />
+          <h3>موقع متجر إلكتروني</h3>
+          <p>تم بناؤه باستخدام React وNode.js مع دعم الدفع الإلكتروني.</p>
+          <a href="#" target="_blank">عرض المشروع</a>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x200" alt="مشروع 2" />
+          <h3>لوحة تحكم إدارية</h3>
+          <p>واجهة مخصصة لإدارة المستخدمين والبيانات باستخدام Vue.js.</p>
+          <a href="#" target="_blank">عرض المشروع</a>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x200" alt="مشروع 3" />
+          <h3>تطبيق مهام يومية</h3>
+          <p>تطبيق جوال باستخدام React Native مع مزامنة السحابة.</p>
+          <a href="#" target="_blank">عرض المشروع</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>ابق على تواصل</h2>
+      <p>أنا دائمًا مفتوح للفرص الجديدة. لا تتردد في مراسلتي!</p>
+      <button onclick="openModal()" class="cta-btn">أرسل رسالة</button>
+    </div>
+  </section>
+
+  <!-- نافذة التواصل -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>أرسل لي رسالة</h2>
+      <form id="contactForm" onsubmit="sendEmail(event)">
+        <input type="text" id="name" placeholder="اسمك" required />
+        <input type="email" id="email" placeholder="بريدك الإلكتروني" required />
+        <textarea id="message" placeholder="رسالتك" rows="5" required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+      <div id="formMessage"></div>
+    </div>
+  </div>
+
+  <!-- التذييل -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 أحمد. جميع الحقوق محفوظة.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
